@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>College Website</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSES</a></li>
+                        <li><a href="">CAMPUS</a></li>
+                        <li><a href="">FACILITIES</a>   </li>
+                        <li><a href="">FACULTY</a></li>
+                        <li><a href="">STUDENTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h>KAKINADA ADITYA DEGREE COLLEGE, SRIKAKULAM</h>
+            <h1>A Synonym For Placements</h1>
+                <p>Motto: Our focus is not just learning but the process of learning for learning is a phase which begins and gradually blooms into a beautiful flower and hence every stage of this metamorphosis requires intense care, sincerity and dedication. And rightly so, to address this journey of educational evolution, we have courses and academics from KG to PG.
+            </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+
+<!-------course------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>BSc, BCA, BBA</p>
+            <div class="row">
+            <div class="course-col">
+                <h3>BSc</h3>
+                <p>MPCs, MECs, MSCs</p>
+                </div>
+            <div class="course-col">
+                <h3>BCA</h3>
+                <p>Computer Applications, Animation</p>
+            </div>
+            <div class="course-col">
+                <h3>BBA</h3>
+                <p>Business Management</p>
+            </div>
+        </div>
+            </section> 
+
+<!---------- campus ------------>
+        
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p> Hiiii </p>
+            <div class="row">
+            <div class="campus-col">
+                <img src="Pic2.jpg.jpeg">
+                <div class="layer">
+                    <h3>Srikakulam</h3>
+                    </div>
+                </div>
+            <div class="campus-col">
+                <img src="Pic3.jpeg">
+                    <div class="layer">
+                        <h3>Kakinada</h3>
+                        </div>
+                </div>
+            <div class="campus-col">
+                <img src="Pic4.jpeg">
+                <div class="layer">
+                    <h3>Surampalem</h3>
+                    </div>
+                </div>
+            </div>
+</section>
+
+<!----------Facilities------->
+        
+<section class="facilities">
+    <h1>Our Facilities</h1>
+        <p>Hii...</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Pic5.jpeg">
+                <h3>Library</h3>
+                <p>Hiiiii....</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Pic6.jpeg">
+                <h3>Laboratories</h3>
+                <p>Hiiiii....</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Pic7.jpg.jpeg">
+                <h3>Seminar Hall</h3>
+<p>Hiiiii....</p>
+</div>
+<div class="facilities-col">
+<img src="Pic8.jpg">
+<h3>Mineral Water</h3>
+<p>Hiiiii....</p>
+</div>
+</div>
+</section>
+
+<!----------- testimonals ---------->
+<section class="testimonials">
+<h1> What Our Student Says</h1>
+<p>Hiiii...!!</p>
+<div class="row">
+<div class="testimonial-col">
+<img src="Pic9.jpeg">
+<div>
+<p>Hiii</p>
+<h3>Kavya</h3>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+</div>
+<div class="testimonial-col">
+<img src="Pic.10.jpeg">
+<div>
+<p>Hloo</p>
+<h3>Bhavana</h3>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+</div>
+</div>
+</section>
+
+<!----------------Call To Action------------>
+<section class="cta">
+<h1>Hii every one</h1>
+<a href=""class="hero-btn">Contact us</a>
+</section>
+
+<!---------------- footer ----------->
+
+<!--<section class="footer">
+<h4> About Us </h4>
+<p> hloo </p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p> Made With <i class="fa fa-users"></i> by KAWDC Students</p>
+</section>
+-->
+<center>
+<h4>About Us</h4>
+<p>hloo</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p> Made by <i class="fa fa-users"></i> of KAWDC</p></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------Javascript for Toggle Menu------->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu()
+{
+navLinks.style.right = "0";
+}
+function hideMenu()
+{
+navLinks.style.right = "-200px";
+}
+</script>
+
+        </section>
+    </body>
+</html>

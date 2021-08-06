@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>College Website</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="logo.png"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="">ABOUT</a></li>
+<li><a href="">COURSES</a></li>
+<li><a href="">STAFF</a></li>
+<li><a href="">STUDENTS</a></li>
+<li><a href="">CONTACT</a></li>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1> About Us</h1>
+
+</section>
+
+<!---------------- footer --------------->
+
+<center><section class="footer">
+<h4> About Us </h4>
+<p> hloo </p>
+<div class="icons"> 
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p> Made by <i class="fa fa-users"></i> of KAWDC</p>
+</section></center>
+
+
+<!---------Javascript for Toggle Menu------->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu()
+{
+navLinks.style.right = "0";
+}
+function hideMenu()
+{
+navLinks.style.right = "-200px";
+}
+</script>
+</body>
+</html>
